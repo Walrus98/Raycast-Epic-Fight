@@ -1,0 +1,33 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="GNU GENERAL PUBLIC LICENSE"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+[[mods]] #mandatory
+modId="epicfight" #mandatory
+version="20.7.4" #mandatory
+displayName="Raycast Epic Fight Fork" #mandatory
+#displayURL="https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod" #optional
+logoFile="epicfight_logo.png" #optional
+#credits="METAL, SAGESSE" #optional
+#authors="Yesman" #optional
+description='''Fork for fixing Epic Fight Issues with Raycast Mod
+'''
+
+[[dependencies.epicfight]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[47.2.20,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epicfight]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20,1.21)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.epicfight]]
+    modId="raycast"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="NONE"
+    side="BOTH"

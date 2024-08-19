@@ -1,0 +1,1 @@
+Fork of original [Epic Fight mod] for Raycast Modpack (https://github.com/Yesssssman/epicfightmod)
